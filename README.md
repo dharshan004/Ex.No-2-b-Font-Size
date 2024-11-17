@@ -1,8 +1,9 @@
-# Ex.No:2 Develop an application that uses Font Size using Android Studio.
+
+# Ex.No:2 Develop an application that uses GUI Components with Fonts and Colors
 
 
 ## AIM:
-To develop an application that uses Font Size using android studio.
+To develop an application that uses GUI Components with Fonts and Colors using android studio.
 
 ## EQUIPMENTS REQUIRED:
 
@@ -20,7 +21,6 @@ Step 1: Create a New Android Project:
               Next
               • Provide the desired Activity name for your project and then click Finish.
 
-
 Step 2: Create a New AVD (Android Virtual Device):
         • click Android Virtual Device Manager from the toolbar.
         • In the Android Virtual Device Manager panel, click New.
@@ -29,15 +29,13 @@ Step 2: Create a New AVD (Android Virtual Device):
         • Click Create AVD and Select the new AVD from the Android Virtual Device
         Manager and click Start.
 
-
 Step 3: Design the graphical layout with a text view and two command buttons.
-
 
 Step 4: Run the application.
 
+Step 5:On pressing the change font size button, the size of the font gets altered.
 
-Step 5:On pressing the change font size button, the size of the font gets altered.       
-
+Step 6: On pressing the Color button, the color of the text altered.
        
 Step 6:Close the Android project. 
 
@@ -46,12 +44,11 @@ Step 6:Close the Android project.
  ```
 Program to Develop an application that uses Font Size using Android Studio .
 Developed by: dharshan s
-RegisterNumber:212222040036
+RegisterNumber: 212222040036
 ```
 
 ## MainActivity.java:
-~~~
-
+```
 
 package com.firstapp.fontsize;
 
@@ -89,10 +86,12 @@ public class MainActivity extends AppCompatActivity {
 
     }
 }
-~~~
+
+
+```
+
 
 ## activity_main.xml:
-~~~
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -125,13 +124,16 @@ public class MainActivity extends AppCompatActivity {
         tools:layout_editor_absoluteY="456dp" />
     </RelativeLayout>
 
-~~~
+
+
+
 ## Output:
-![image](https://github.com/user-attachments/assets/2fd86ecb-2252-4f06-92bb-948cccb91ce9)
-![image](https://github.com/user-attachments/assets/ab4089bf-18db-4e18-8b1a-c842cacc6572)
 
+ 
+ ![Screenshot 2024-09-14 133518](https://github.com/user-attachments/assets/50c3cbd7-8e26-4744-900a-b2718f33d524)
 
+![Screenshot 2024-09-14 133440](https://github.com/user-attachments/assets/7db27a7b-8acf-4790-8b10-1d3dc2fcda8f)
 
 
 ## Result:
-Thus, the program for android application, Font Size was executed successfully using Android Studio.
+Thus, the program for android application, Font Size and color was executed successfully using Android Studio.
